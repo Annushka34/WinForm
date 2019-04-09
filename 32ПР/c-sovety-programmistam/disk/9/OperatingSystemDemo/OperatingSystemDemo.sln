@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperatingSystemDemo", "OperatingSystemDemo\OperatingSystemDemo.csproj", "{9E67815A-4568-477C-8E15-BF3207E0BB7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E67815A-4568-477C-8E15-BF3207E0BB7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E67815A-4568-477C-8E15-BF3207E0BB7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E67815A-4568-477C-8E15-BF3207E0BB7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E67815A-4568-477C-8E15-BF3207E0BB7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

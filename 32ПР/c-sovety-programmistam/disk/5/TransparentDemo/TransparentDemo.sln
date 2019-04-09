@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransparentDemo", "TransparentDemo\TransparentDemo.csproj", "{53E91378-8F18-418F-91E2-7C4789E2082F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyOpacity", "MyOpacity\MyOpacity.csproj", "{BCAF3137-666E-4729-B9CB-D6345A13362D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53E91378-8F18-418F-91E2-7C4789E2082F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53E91378-8F18-418F-91E2-7C4789E2082F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53E91378-8F18-418F-91E2-7C4789E2082F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53E91378-8F18-418F-91E2-7C4789E2082F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCAF3137-666E-4729-B9CB-D6345A13362D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCAF3137-666E-4729-B9CB-D6345A13362D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCAF3137-666E-4729-B9CB-D6345A13362D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCAF3137-666E-4729-B9CB-D6345A13362D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC5EBD22-455E-428E-BA67-2D50DBFF96A3}
+	EndGlobalSection
+EndGlobal

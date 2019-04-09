@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Win32", "Win32\Win32.csproj", "{B47A9BB7-6DDA-45A1-861A-1D1E90DEE7C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Win32API", "ClassLibrary1\Win32API.csproj", "{A6FF244C-46A4-4B63-96DA-DC72EEDDC2C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B47A9BB7-6DDA-45A1-861A-1D1E90DEE7C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B47A9BB7-6DDA-45A1-861A-1D1E90DEE7C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B47A9BB7-6DDA-45A1-861A-1D1E90DEE7C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B47A9BB7-6DDA-45A1-861A-1D1E90DEE7C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6FF244C-46A4-4B63-96DA-DC72EEDDC2C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6FF244C-46A4-4B63-96DA-DC72EEDDC2C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6FF244C-46A4-4B63-96DA-DC72EEDDC2C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6FF244C-46A4-4B63-96DA-DC72EEDDC2C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
