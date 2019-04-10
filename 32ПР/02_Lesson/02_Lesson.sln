@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.28307.539
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Lesson", "02_Lesson\02_Lesson.csproj", "{C31F8BC1-701B-416F-BA94-847A301FD344}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_TextBoxRadioButton", "02_TextBoxRadioButton\02_TextBoxRadioButton.csproj", "{8F8ADD6B-C751-4C30-828C-C69E2C2762CF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_RadioButton", "02_TextBoxRadioButton\02_RadioButton.csproj", "{8F8ADD6B-C751-4C30-828C-C69E2C2762CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_TextBox", "03_TextBox\03_TextBox.csproj", "{485355C8-4BA4-4544-AA7D-53E7FFF9B58B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{8F8ADD6B-C751-4C30-828C-C69E2C2762CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F8ADD6B-C751-4C30-828C-C69E2C2762CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F8ADD6B-C751-4C30-828C-C69E2C2762CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{485355C8-4BA4-4544-AA7D-53E7FFF9B58B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{485355C8-4BA4-4544-AA7D-53E7FFF9B58B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{485355C8-4BA4-4544-AA7D-53E7FFF9B58B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{485355C8-4BA4-4544-AA7D-53E7FFF9B58B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
