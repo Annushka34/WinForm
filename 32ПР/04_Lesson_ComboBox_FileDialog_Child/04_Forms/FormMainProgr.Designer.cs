@@ -50,6 +50,7 @@
             this.Controls.Add(this.label1);
             this.Name = "FormMainProgr";
             this.Text = "FormMainProgr";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormMainProgr_FormClosing);
             this.Load += new System.EventHandler(this.FormMainProgr_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

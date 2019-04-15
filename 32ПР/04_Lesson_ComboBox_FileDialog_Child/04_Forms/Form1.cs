@@ -12,36 +12,49 @@ namespace _04_Forms
 {
     public partial class Form1 : Form
     {
-        public User u;
-      
+        public List<User> users;
+
         public Form1()
         {
             InitializeComponent();
-            u = new User("111@gmail.com");
+            users = new List<User>
+            {
+              new User{  email = "111@gmail.com", name = "Olga", pswd = "111", img = "2" },
+               new User{  email = "semen@gmail.com", name = "Semen", pswd = "111", img = "3" }
+        };
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-          //  if (u.email == txtEmail.Text && u.pswd == txtPswd.Text)
+           if (users.Any(u => u.email == txtEmail.Text && u.pswd == txtPswd.Text))
             {
-                FormMainProgr f = new FormMainProgr(this);
+                User user =  users.Where(u => u.email == txtEmail.Text && u.pswd == txtPswd.Text).FirstOrDefault();
+                FormMainProgr f = new FormMainProgr(this, user);
                 f.Show();
-
                // f.ShowDialog();
+            }
+            else
+            {
+                lblValidEmail.Text = "No such user";
             }
         }
     }
-    public struct User
+    public class User
     {
         public string email;
         public string pswd;
         public string name;
-        public User(string email)
-        {
-            this.email = email;
-            pswd = "123456";
-            name = "Vasja";
-        }
+        public string img;
+        public string Path { set; get; } = @"D:\ШАГ\forms\ПрикладиЗКласу\WinForm\32ПР\04_Lesson_ComboBox_FileDialog_Child\04_Forms\img\";
+
+        //public User(string email)
+        //{
+        //    this.email = email;
+        //    pswd = "123456";
+        //    name = "Vasja";
+        //    path =
+        //    img = "1";
+        //}
     }
 
 }
