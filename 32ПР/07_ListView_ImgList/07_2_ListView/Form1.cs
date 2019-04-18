@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -17,8 +19,8 @@ namespace _07_2_ListView
         int yMove = +2;
         int merge = 30;
         int yLocationPopUp = -300;
-        string path = @"D:\ШАГ\forms\ПрикладиЗКласу\WinForm\32ПР\07_ListView_ImgList\img\";
-        string initalDir = @"D:\ШАГ\forms\ПрикладиЗКласу\WinForm\32ПР\07_ListView_ImgList\img\";
+        string path;// = @"D:\ШАГ\forms\ПрикладиЗКласу\WinForm\32ПР\07_ListView_ImgList\img\";
+        string initalDir;// = @"D:\ШАГ\forms\ПрикладиЗКласу\WinForm\32ПР\07_ListView_ImgList\img\";
         public Form1()
         {
             InitializeComponent();
@@ -27,6 +29,11 @@ namespace _07_2_ListView
         private void Form1_Load(object sender, EventArgs e)
         {
             groupBox1.Location = new Point(390, yLocationPopUp);
+
+            string fullPathToExe = System.IO.Path.Combine(System.IO.Directory.GetCurrentDirectory());
+            string imgDir = Path.Combine(Directory.GetParent(fullPathToExe).Parent.Parent.FullName, @"img\");
+            path = imgDir;
+            initalDir = imgDir;
         }
 
         private void btnShow_Click(object sender, EventArgs e)
@@ -153,7 +160,7 @@ namespace _07_2_ListView
                 ListViewItem item = new ListViewItem("new item", il.Images.Count - 1);
                 item.SubItems.Add("Programming");
                 item.SubItems.Add("13");
-                lw.Items.Add(item);
+                lw.Items.Add(item);                
             }
         }
 
