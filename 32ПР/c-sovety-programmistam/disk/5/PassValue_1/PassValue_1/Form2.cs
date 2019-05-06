@@ -20,7 +20,7 @@ namespace WindowsApplication1
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            this.txtGetText.Text = ((Form1)this.form1).textBox1.Text;
+            this.txtGetText.Text = this.form1.textBox1.Text;
         }
     }
 }

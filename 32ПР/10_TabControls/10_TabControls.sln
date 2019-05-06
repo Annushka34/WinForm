@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleInstance", "SingleInstance\SingleInstance.csproj", "{ED50FC1E-88ED-4C4A-B319-6E196276D107}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_TabControls", "10_TabControls\10_TabControls.csproj", "{EAD30D74-CBD1-410C-8CB0-27563390CD67}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{ED50FC1E-88ED-4C4A-B319-6E196276D107}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ED50FC1E-88ED-4C4A-B319-6E196276D107}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ED50FC1E-88ED-4C4A-B319-6E196276D107}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ED50FC1E-88ED-4C4A-B319-6E196276D107}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAD30D74-CBD1-410C-8CB0-27563390CD67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAD30D74-CBD1-410C-8CB0-27563390CD67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAD30D74-CBD1-410C-8CB0-27563390CD67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAD30D74-CBD1-410C-8CB0-27563390CD67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {DC1479F8-8CF0-4953-B7ED-9D2361952AC8}
+		SolutionGuid = {ED95A781-D202-479B-9CB7-6F624BBEBB46}
 	EndGlobalSection
 EndGlobal
