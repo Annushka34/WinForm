@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_ChildForm", "11_ChildForm\11_ChildForm.csproj", "{80D821AF-8481-49E1-99CA-EC8736FF4D08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_MDI", "11_MDI\11_MDI.csproj", "{81759183-80A0-4E80-964A-941E4A936ABF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_FocusForm", "11_MDI\11_FocusForm.csproj", "{81759183-80A0-4E80-964A-941E4A936ABF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
