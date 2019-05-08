@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_WebBrowser_Media", "12_WebBrowser_Media\12_WebBrowser_Media.csproj", "{8CC80D4F-BD6B-4716-86BF-210813B172F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_Video", "12_Video\12_Video.csproj", "{2430FCBA-06D1-40F3-832C-CC2A12FE6286}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CC80D4F-BD6B-4716-86BF-210813B172F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CC80D4F-BD6B-4716-86BF-210813B172F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CC80D4F-BD6B-4716-86BF-210813B172F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CC80D4F-BD6B-4716-86BF-210813B172F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2430FCBA-06D1-40F3-832C-CC2A12FE6286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2430FCBA-06D1-40F3-832C-CC2A12FE6286}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2430FCBA-06D1-40F3-832C-CC2A12FE6286}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2430FCBA-06D1-40F3-832C-CC2A12FE6286}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3DB72F97-BDE1-4F85-BCBB-EA2D93C2CD4A}
+	EndGlobalSection
+EndGlobal
