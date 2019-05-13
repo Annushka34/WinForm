@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_UserControls", "14_UserControls\14_UserControls.csproj", "{5CE6242C-379D-4BCF-9ABD-AA1369C84ED3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_UserControlComboBox", "14_UserControlComboBox\14_UserControlComboBox.csproj", "{3EDE6752-F38F-40B0-B0A6-10F490E7A89B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CE6242C-379D-4BCF-9ABD-AA1369C84ED3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CE6242C-379D-4BCF-9ABD-AA1369C84ED3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CE6242C-379D-4BCF-9ABD-AA1369C84ED3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CE6242C-379D-4BCF-9ABD-AA1369C84ED3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EDE6752-F38F-40B0-B0A6-10F490E7A89B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EDE6752-F38F-40B0-B0A6-10F490E7A89B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EDE6752-F38F-40B0-B0A6-10F490E7A89B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EDE6752-F38F-40B0-B0A6-10F490E7A89B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C04D2C0C-68D4-4D11-90E4-4F241C6DE634}
+	EndGlobalSection
+EndGlobal
